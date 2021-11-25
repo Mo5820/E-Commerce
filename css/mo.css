@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andada Pro', serif;
+}
+.contioner{
+    background-color: rgba(221, 219, 219, 0.075);
+}
+.navbar{
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+}
+.navbar .logo{
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    padding-top:8px ;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #eee;
+    margin-left: 50px;
+}
+
+.navbar .logo p{
+    font-size: 32px;
+    margin-top: -35px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    color: rgb(11, 181, 233);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+
+.links ul{
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.links ul li{
+    display: inline-block;
+    margin-right: 20px; 
+    align-items: right;  
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(54, 50, 50);
+}
+
+
+
+/************nav end***********/
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.col1 .btn,.col3 .btn{
+    width: auto;
+    padding: 3px;
+    background-color: rgb(247, 243, 243);
+    border: 2px solid rgba(204, 192, 192, 0.329);
+    margin-top: 10px;
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 0, 0);
+    transition: 0.4s;
+}
+
+.small-c h1{
+    margin-left:600px ;
+}
+
+.col1 .btn:hover,.col3 .btn:hover{
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.row .col1{
+    flex-basis: 48%;
+    margin-left: 50px;
+
+}
+
+.row .col2{
+    flex-basis: 48%;
+}
+
+.row .col2 img{
+    max-width: 100%;
+}
+
+
+/************************catiogeries*********************************/
+
+.catiogeries{
+    margin-top: 100px;
+}
+
+.catiogeries-row{
+    display: flex;
+    margin-left: 170px;
+}
+
+.col-1{
+    flex-basis: 25%;
+    min-width: 220px;
+    margin: 15px;
+}
+
+.col-1 img{
+    width: 100%;
+    margin: 20px;
+    min-width: 220px;
+
+}
+
+.small-contioner{
+    margin-top: 50px;
+}
+
+.small-contioner h2{
+    margin-left: 570px;
+    padding: 20px;
+    padding-top: 50pz;
+    color: rgb(56, 4, 105);
+
+}
+
+.col-2{
+    width: 100%;
+    flex-basis: 25%;
+    min-width: 150px;
+    margin: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.col-2:hover{
+    transform: translateY(-5px);
+}
+
+.row{
+    padding-left:125px;
+    padding-right:115px;
+}
+.col-2 img{
+    width: 100%;
+    min-width: 240px;
+}
+
+.rating{
+    color: orange;
+    margin-left: 80px;
+}
+
+.offers{
+    background-color: rgba(221, 219, 219, 0.075);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.col3 img{
+    padding: 10px;
+    width: 550px;
+}
+
+.col3 small{
+    color: #555;
+}
+
+/****************tes***********************************/
+.col4{
+    width: 280px;
+    margin-left:20px ;
+    background-color: rgba(201, 187, 187, 0.185);
+    padding: 10px;
+    transition: 0.3s;
+
+}
+
+.col4:hover{
+    transform: translateY(-5px);
+}
+
+.col4 p{
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.col4 img{
+    border-radius: 50%;
+    width: 45px;
+    margin: 10px;
+    margin-left: 110px;
+
+}
+.fa-quote-left{
+    color: orangered;
+    width: 100px;
+    margin-left: 110px;
+}
+
+.testimonial h1{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.testimonial .row{
+    margin-left:100px;
+}
+
+/**************brands***********************/
+.brands{
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 170px;
+}
+
+.col5 img{
+    cursor: pointer;
+    filter: grayscale(100%);
+    width: 160px;
+}
+
+.col5 img:hover{
+    filter: grayscale(0);
+
+}
+
+/*************footer******************/
+.footer{
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+}
+
+
+.footer ul{
+    list-style: none;
+}
+
+.footer i,.footer li{
+    cursor: pointer;
+}
+.footer-col1,.footer-col2,.footer-col3,.footer-col4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.footer-col1{
+    flex-basis: 40%;
+    padding-left: 20px;
+
+}
+
+.app-logo img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.footer-col2{
+    flex: 1;
+    flex-basis: 20%;
+    text-align: right;
+}
+
+.footer-col3{
+    flex-basis:22% ;
+    text-align: center;
+}
+
+.footer-col4{
+    flex-basis:5% ;
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+
+/****************media query****************************/
+
+@media only screen and(max-width:800px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        overflow: hidden;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/**************small media***************/
+
+@media only screen and(max-width:600px){
+    .row{
+        text-align: center;
+    }
+
+    .col2,.col3.col4{
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+/******************secend page*****************************/
+
+.row-2{
+    justify-content: space-between;
+    margin: 50px auto 50px;
+}
+
+
+.page-btn{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.page-btn span{
+    border: 1px solid #666;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-btn span:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.aa{
+    text-decoration: none;
+}
